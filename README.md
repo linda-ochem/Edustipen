@@ -9,6 +9,7 @@
 
 #### To test the comment endpoint on postman:
 - Add this endpoint on postman 'http://localhost:8088/api/comments/' set it as a **GET** request.
+- Example 'http://localhost:8088/api/comments/5' This example will retrieve 5 comments.
 - Add the limit you want as an `INTEGER` at the tail of the endpoint.
 - Send the request on postman.
 
@@ -20,6 +21,7 @@ if it is not successful, you will recieve an error message, verify your input (L
 #### To test the post endpoint on postman:
 - Add this endpoint on postman 'http://localhost:8088/api/posts/' set it as a **GET** request.
 - Add the limit you want as an `INTEGER` at the tail of the endpoint.
+- Example 'http://localhost:8088/api/posts/5' This example will retrieve 5 posts.
 - Send the request on postman.
 
 when the input is provided and sent, if succesfull, you would recieve a *200* status code to show for it.
