@@ -3,7 +3,7 @@ import {} from 'dotenv/config'
 import fetch from 'node-fetch'
 
 const app = express()
- const PORT = process.env.PORT
+ const PORT = process.env.PORT || 8088
 
 app.get('/api/comments/:id', (req, res)=>{
     const limit = req.params.id
