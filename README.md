@@ -2,6 +2,7 @@
 
 - Fork and clone this repository to your local machine.
 - Import the folder to Visual Studio Code.
+- Create a `.env` file in the home directory and set the port to 8088. Example `PORT=8088`
 - Run `npm install` on the VsCode terminal.
 - Run `npm start` to kick-start the local development server.
 
